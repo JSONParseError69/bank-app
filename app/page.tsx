@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./components/header";
 import BankCard from "./components/bank-card";
+import ActionButtons from "./components/action-buttons";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       >
         <BankCard currency="USD" balance="$4,297.00" last4="7432" />
       </section>
+      <ActionButtons />
     </>
   );
 }
